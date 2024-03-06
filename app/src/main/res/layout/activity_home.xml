@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/login_backgroud"
+    tools:context=".HomeActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:width="160dp"
+        android:height="160dp"
+        android:textAllCaps="true"
+        android:id="@+id/admin"
+         />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_below="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@color/white"
+      />
+
+    <EditText
+        android:id="@+id/allgrievance"
+        android:layout_below="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Grievance"
+        android:textColor="@color/white"
+
+        />
+    <EditText
+        android:id="@+id/catagory"
+        android:layout_below="@+id/allgrievance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Grievance"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/updateuser"
+        android:layout_below="@+id/catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

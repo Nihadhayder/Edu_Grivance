@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/login_backgroud"
+    tools:context=".HomeActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Grievance"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:width="160dp"
+        android:height="160dp"
+        android:textAllCaps="true"
+        android:id="@+id/user_grievance"
+        />
+
+    <EditText
+        android:id="@+id/grievance"
+        android:layout_below="@+id/user_grievance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grievance"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/mygrievance"
+        android:layout_below="@+id/grievance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Grievance"
+        android:textColor="@color/white"
+
+        />
+    <EditText
+        android:id="@+id/my_profile"
+        android:layout_below="@+id/mygrievance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Grievance"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
